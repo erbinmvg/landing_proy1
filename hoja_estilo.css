@@ -1,0 +1,44 @@
+.img_fondo{
+    height: 110vh;
+}
+body{
+    background-color: cadetblue;
+}
+.nosotros{
+    display: flex;
+    flex-direction:row;
+    background-color: green;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.contenedor_prod{
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.producto1{
+    width: 200px;
+    background-color: white;
+}
+.producto2{
+    width: 200px;
+    background-color: white; 
+}
+.producto3{
+    width: 200px;
+    background-color: white;
+}
+.producto4{
+    width: 200px;
+    background-color: white;
+}
+.producto5{
+    width: 200px;
+    background-color: white;
+}
+.producto6{
+    width: 200px;
+    background-color: white;
+}

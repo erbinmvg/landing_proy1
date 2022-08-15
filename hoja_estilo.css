@@ -1,5 +1,6 @@
 .img_fondo{
-    height: 110vh;
+    height: 100vh;
+    image-rendering: auto;
 }
 body{
     background-color: cadetblue;
@@ -9,14 +10,27 @@ body{
     flex-direction:row;
     background-color: green;
     flex-wrap:wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
+.nosotros_titulo{
+    width:100%;
+    background-color: green;
+}
+
 .contenedor_prod{
     display: flex;
     flex-direction:row;
     background-color: white;
     flex-wrap:wrap;
     justify-content: space-around;
+}
+
+.titulo_pro{
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 .producto1{
     width: 200px;
@@ -41,4 +55,28 @@ body{
 .producto6{
     width: 200px;
     background-color: white;
+}
+.contenedor_fot{
+    display: flex;
+    flex-direction:row;
+    background-color: burlywood;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.direcciones{
+    width: 200px;
+    background-color: burlywood;
+}
+.despachos{
+    width: 200px;
+    background-color: burlywood;
+}
+.fpago{
+    width: 200px;
+    background-color: burlywood;
+}
+.redes_soc{
+    width: 100%;
+    background-color: aquamarine;
 }

@@ -5,18 +5,48 @@
 body{
     background-color: cadetblue;
 }
+.fpantalla{
+    background-image: url("img/img_fondo6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .nosotros{
     display: flex;
     flex-direction:row;
-    background-color: green;
+    /*background-color: green;*/
+    flex-wrap:wrap;
+    /*justify-content: space-between;*/
+    background-image: url("img/image_fondo3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.nosotros_titulo{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    /*background-color: green;*/
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.nosotros_det{
+    width: 700px;
+    display: flex;
+    flex-direction:row;
+    /*background-color: green;*/
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.img_chiloe{
+    width: 300px;
+    display: flex;
+    flex-direction:row;
+    /*background-color: green*/
     flex-wrap:wrap;
     justify-content: center;
 }
-.nosotros_titulo{
-    width:100%;
-    background-color: green;
-}
-
 .contenedor_prod{
     display: flex;
     flex-direction:row;
@@ -69,7 +99,7 @@ body{
     background-color: burlywood;
 }
 .despachos{
-    width: 200px;
+    width: 250px;
     background-color: burlywood;
 }
 .fpago{
@@ -77,6 +107,14 @@ body{
     background-color: burlywood;
 }
 .redes_soc{
-    width: 100%;
-    background-color: aquamarine;
+    width: 200px;
+    background-color: burlywood;
+}
+.contenedor_prod div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer li{
+    list-style-type: none;
 }

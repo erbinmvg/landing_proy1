@@ -27,71 +27,85 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                <a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                <a class="nav-link active" aria-current="page" href="#tProd">Productos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Iniciar Sesión</a>
+                <a class="nav-link active" aria-current="page" href="registro.html">Iniciar Sesión</a>
               </li>
             </ul>
             
           </div>
         </div>
       </nav>
-      <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1 text-white">
+      <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1 text-white fpantalla">
           <h1 class=" ">Productos frescos, del mar a su mesa</h1>
-          <h2 class=" ">Productos frescos, del mar a su mesa</h2>
+          <h2 class=" ">Para el deleite de su paladar</h2>
+          <h2 class=" ">Déjanos tus consultas o cementarios y con gusto te responderemos</h2>
           <div>
-            <textarea name="cmonentario" id="" cols="30" rows="10"></textarea>
+            <textarea name="cmonentario" placeholder="Ingrese sus comentarios" id="" cols="70" rows="10"></textarea>
           </div>
           <div>
-              <input type="Ingrese su correo">
+              <input type="texto" placeholder="Ingrese su correo">
               <button>Enviar</button>
           </div>
       </div>
       
     </div>
    </header>
-   <section>
+   <section >
       <div class="nosotros">
-            <h1>NUESTRA EMPRESA</h1>
+          <div class="nosotros_titulo">
+            <h1 id="nosotros">NUESTRA EMPRESA</h1>
+          </div>  
+          <div class="img_chiloe">
+            <!--<img src="img/todos_prod.png">
+            <img src="img/chiloe.png">-->
+            <img src="img/chiloe_mapa.png">
+            <!--<img src="img/plato.png">-->
+          </div>  
+          <div class="nosotros_det">
             <h5>Somos una tienda online donde encuentras los productos de mar más frescos del mercado con una amplia variedad en Mariscos, Camarones, Salmón, Merluza, entre otros. En nuestra tienda puedes comprar de manera segura y rápida seleccionando los productos que necesites.</h5>
             <h5>Nuestro objetivo es ofrecer a los clientes productos de la mejor calidad, nutritivos, saludables y a precios accesibles. Junto a ello nos interesa poder orientar a nuestros clientes al momento de elegir un producto para llevar y preparar tanto en casa como en su negocio.</h5>
+            <h5>Estamos ubicados en Chiloé, y todos nuestros procesos se realizan bajo extrictas medidas de conservación del medio ambiente.</h5>
+
+          </div>
+          
       </div>
       <div class="titulo_pro">
-        <h3>NUESTROS PRODUCTOS</h3>
+        <h3 id="tProd">NUESTROS PRODUCTOS</h3>
         
       </div>
       <div class="contenedor_prod">
        
-        <div class=producto1>
-            <img src="img/img1.PNG">
-            <p>Medallon de merluza Austral 150 gramos</p>
+        <div class="producto1">
+            <img src="img/merluza.png">
+            <p>Merluza Austral 1 kilo $5.700</p>
         </div> 
-        <div class=producto2 justify-content-center>
-            <img src="img/img2.png" alt="">
-            <p>Porción de salmon fresco de 200 garmos</p>
+        <div class="producto2">
+            <img src="img/salmon.png" alt="">
+            <p>Porción de salmon fresco de 250 garmos $2.790</p>
         </div>
-        <div class=producto3>
-            <img src="img/img3.png" alt="">
-            <p>Chorito o Mejillon en una concha 24 unidades</p>
+        <div class="producto3">
+            <img src="img/mejillon.png" alt="">
+            <p>Chorito o Mejillon 500 gramos $3.990</p>
         </div>
-        <div class=producto4>
-            <img src="img/img4.png" alt="">
-            <p>Camarón Ecuatoriano bolsa de 400 gramos</p>
+        <div class="producto4">
+            <img src="img/camaron2.png" alt="">
+            <p>Camarón con cáscara bolsa de 400 gramos $2.590</p>
         </div>
-        <div class=producto5>
-            <img src="img/img5.png" alt="">
-            <p>Carne de atún 250 gramos</p>
+        <div class="producto5">
+            <img src="img/img_atun.png" alt="">
+            <p>Carne de atún 250 gramos $3.990</p>
         </div>
-        <div class=producto6>
-            <img src="img/img6.png" alt="">
-            <p>Pinza de jaiva 12 unidades</p>
+        <div class="producto6">
+            <img src="img/jaiva.png" alt="">
+            <p>Pinza de jaiva 12 unidades $2.800</p>
         </div>
       
       </div>
@@ -100,30 +114,36 @@
    <footer class="contenedor_fot">
       <div class="direcciones">
         <h5>DIRECCION</h5>
-        <b>Sector Rural Canán S/N</b>
-        <b>Comuna de Chonchi</b>
-        <b>Provincia de Chiloé</b>
-        <b>Región de Lagos</b>
-        
+        <ul>
+          <li>Sector Rural Canán S/N</li>
+          <li>Comuna de Chonchi</li>
+          <li>Provincia de Chiloé</li>
+          <li>Región de Lagos</li>
+        </ul>
       </div>
       <div class="despachos">
         <h5>MEDIOS DE DESPACHOS</h5>
-        <b>Chilexpress</b>
-        <b>Transportes Cruz Del Sur</b>
-        <b>Starken</b>
-        <b>Pullman Cargo</b>
+        <ul>
+          <li>Chilexpress</li>
+          <li>Transportes Cruz Del Sur</li>
+          <li>Starken</li>
+          <li>Pullman Cargo</li>
+        </ul>
       </div>
       <div class="fpago">
         <h5>MEDIOS DE PAGO</h5>
-        <b>Transferencia Bancaria</b>
-        <b>Tarjeta de Dédito</b>
-        <b>Tarjeta de Crédito</b>
+        <ul>
+           <li>Transferencia Electrónica</li>
+           <li>Tarjeta de Dédito</li>
+           <li>Tarjeta de Crédito</li>
+        </ul>
       </div>
       <div class="redes_soc">
+        <h5>REDES SOCIALES</h5>
         <ul>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Twiter</li>
+           <li><a href="#">Facebook</a></li>
+           <li><a href="#">Instagram</a></li>
+           <li><a href="#">Twiter</a></li>
         </ul>
 
       </div>

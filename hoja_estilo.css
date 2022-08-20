@@ -11,17 +11,22 @@ body{
     background-size: cover;
     background-position: center;
 }
+.fpantalla2{
+    background-image: url("img/fondo_reg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .nosotros{
     display: flex;
     flex-direction:row;
     /*background-color: green;*/
     flex-wrap:wrap;
     /*justify-content: space-between;*/
-    background-image: url("img/image_fondo3.png");
+    background-image: url("img/imagen_fondo3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 .nosotros_titulo{
     width: 100%;
